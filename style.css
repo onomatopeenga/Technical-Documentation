@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:wght@600&display=swap');
+
+
+
+header{
+  font-size:30px;
+  font-family: 'Poppins', sans-serif;
+
+
+
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  background-color:#333431;
+
+}
+#picture{
+  width: 100%;
+margin-top:-20px;
+margin-left: -10px;
+top: 0;
+}
+#navbar{
+  position:fixed;
+}
+.navbar-elm{
+  list-style-type:none;
+  margin:0px;
+  padding:0px;
+  width:300px;
+  background-color: #fff;
+  height:96vh;
+  overflow:auto;
+  color:#1a1a1a;
+  transition:border-radius .5s ease;
+  display:block;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav-link{
+  display:block;
+  color:black;
+  padding:15px 16px;
+  text-decoration:none;
+  list-style-type:none;
+  text-align:center;
+  font-size:18px;
+  transition:color .5s ease, .5s ease;
+  border:1px solid black;
+
+}
+.nav-link :hover {
+  padding:15px 16px;
+  background color:#F8DA59;
+}
+
+.navbar-header{
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+ a.nav-link:hover {
+    background: #F8DA59;
+
+}
+
+#main-doc{
+
+  margin-left:323px;
+  margin-right: 10px;
+}
+.hr{
+  border:2px solid #d74d63;
+  border-radius:5px;
+}
+
+#introduction, #javascript_and_java, #declaring_variables, #global_variable{
+  background-color: #fff;
+  padding: 10px 10px 10px 10px;
+  color:#333431;
+}
+#what_you_should_already_know, #hello_world, #variable_scope, #constants{
+  padding: 10px 10px 10px 10px;
+    color: #F8DA59;
+}
+
+@media screen and (max-width:600px){
+  .navbar-elm{
+    position:fixed;
+    width:250px;
+  }
+  #main-doc{
+    margin-left:260px;
+  }
+}
